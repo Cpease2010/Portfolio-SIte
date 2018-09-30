@@ -51,24 +51,17 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
     background: url(../images/bridgePhoto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     color: black;
-    
-    
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 30px;
+    font-size: 30px;
 }
 
 #intro {

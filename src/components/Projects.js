@@ -13,23 +13,6 @@ const Projects = (props) => {
                 <Card className='text-center'>
                     <CardBody>
                         <CardTitle>
-                            <Button color="primary" size="lg" href='http://dino1.surge.sh'>Dinos Project</Button>
-                        </CardTitle>
-                    </CardBody>
-                    <CardImg width="100%" src={Dino} alt="Photo of Dino project"/>
-                    <CardBody>
-                        <CardText>
-                            <h4>Vue.js</h4>
-                            <h4>Form Data</h4>
-                            <h4>Life Cycle Methods</h4>
-                        </CardText>
-                    </CardBody>
-                </Card>
-            </Col>
-            <Col sm='4'>
-                <Card className='text-center'>
-                    <CardBody>
-                        <CardTitle>
                             <Button color="primary" size="lg" href='http://gitduel.surge.sh'>Git Duel Project</Button>
                         </CardTitle>
                     </CardBody>
@@ -39,6 +22,23 @@ const Projects = (props) => {
                             <h4>Axios</h4>
                             <h4>GitHub API</h4>
                             <h4>CORS</h4>
+                        </CardText>
+                    </CardBody>
+                </Card>
+            </Col>
+            <Col sm='4'>
+                <Card className='text-center'>
+                    <CardBody>
+                        <CardTitle>
+                            <Button color="primary" size="lg" href='http://dino1.surge.sh'>Dinos Project</Button>
+                        </CardTitle>
+                    </CardBody>
+                    <CardImg width="100%" src={Dino} alt="Photo of Dino project"/>
+                    <CardBody>
+                        <CardText>
+                            <h4>Vue.js</h4>
+                            <h4>Form Data</h4>
+                            <h4>Life Cycle Methods</h4>
                         </CardText>
                     </CardBody>
                 </Card>
