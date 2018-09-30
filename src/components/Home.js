@@ -1,7 +1,5 @@
 import React from 'react'
 import '../css/Home.css'
-import Bridge from '../images/bridgePhoto.jpg'
-import Hacker from '../images/hackerImage.jpg'
 import Arrow from '../images/arrowImage.png'
 
 export default () => {
