@@ -1,6 +1,6 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import '../css/Footer.css';
+import '../css/Menu.css';
 
 export default class Menu extends React.Component {
     constructor(props) {
