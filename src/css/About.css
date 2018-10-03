@@ -1,0 +1,22 @@
+.projects{
+    padding: 20px;
+    height: 100%;
+    background: black;
+}
+
+.aboutImg{
+    height: 70vh;
+    width: auto;
+    margin: 0 auto;
+}
+
+.carouselSettings{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.carouselSettings h1{
+    padding-top: 10px;
+    margin: 0px;
+}

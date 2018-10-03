@@ -26,16 +26,16 @@ export default class Menu extends React.Component {
                     <Collapse isOpen={!this.state.collapsed} navbar>
                     <Nav navbar>
                         <NavItem>
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="#home">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="/">About</NavLink>
+                        <NavLink href="#about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="/">Projects</NavLink>
+                        <NavLink href="#projects">Projects</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="/">Contact</NavLink>
+                        <NavLink href='#contact'>Contact</NavLink>
                         </NavItem>
                     </Nav>
                     </Collapse>

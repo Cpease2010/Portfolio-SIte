@@ -1,7 +1,22 @@
 .footer{
-    background: black;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     clear: both;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.footerSettings{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+}
+
+.footerSettings h3, h4{
+    align-self: center;
+    margin-bottom: 0px;
+    margin: 3px;
 }

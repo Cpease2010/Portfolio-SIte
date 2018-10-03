@@ -1,8 +1,3 @@
-/* .transition{
-    height: 50vh;
-    background: black;
-} */
-
 @keyframes transitionBackground {
     from {background: url(../images/bridgePhoto.jpg);
         background-attachment: fixed;
@@ -37,13 +32,12 @@
 }
 
 @keyframes transitionOutroImage{
-    0% {height: 0px;}
+    0% {height: 50px;}
     25% {height:  25px;}
-    50% {height: 50px;}
+    50% {height: 0px;}
     75% {height: 25px}
-    100% {height: 0px}
+    100% {height: 50px}
 }
-
 .headDivTop {
     height: 100vh;
     animation: transitionBackground 4s 1;
@@ -82,7 +76,7 @@
 #outroImage {
     font: outline;
     height: 0px;
-    animation: transitionOutroImage 4s infinite;
+    animation: transitionOutroImage 4s 2;
     animation-delay: .5s;
     animation-timing-function: linear;
     animation-fill-mode: both;

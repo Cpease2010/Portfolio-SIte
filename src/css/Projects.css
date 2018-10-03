@@ -1,4 +1,12 @@
 .projects{
     padding: 20px;
-    height: 100%;
+    height: 90%;
+}
+
+.projectSettings{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
 }
