@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Col, Row, Button } from 'reactstrap';
 import Dino from '../images/dino.png'

@@ -5,12 +5,12 @@ import {Link} from 'react-router-dom'
 
 export default class Menu extends React.Component {
     constructor(props) {
-    super(props);
+        super(props);
 
-    this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state = {
-        collapsed: true
-    };
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.state = {
+            collapsed: true
+        };
     }
 
     toggleNavbar() {

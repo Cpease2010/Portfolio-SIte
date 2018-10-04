@@ -1,20 +1,11 @@
 // src/routes.js
-
 import React from 'react';
 import { Route, Router } from 'react-router-dom';
 import App from './App';
-import Home from './components/Home';
+import Home from './Pages/Home';
 import Callback from './Callback/Callback';
 import Auth from './Auth/Auth';
 import history from './history';
-// import Menu from './components/Menu';
-
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-import Projects from './components/Projects';
-// import About from './components/About';
-// import Divider from './components/Divider';
-// import HackDivider from './components/HackDivider';
 
 const auth = new Auth();
 
