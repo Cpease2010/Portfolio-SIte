@@ -6,8 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Col,
-  Row,
-  Media
+  Row
 } from 'reactstrap';
 import Beach from '../images/beachImg.jpg';
 import Sillouette from '../images/sillouette.jpg';

@@ -3,6 +3,10 @@
     height: 90%;
 }
 
+.projects p{
+    font-size: 24px;
+}
+
 .projectSettings{
     background: black;
     color: white;
