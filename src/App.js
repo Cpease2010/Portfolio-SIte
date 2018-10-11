@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Button } from 'react-bootstrap';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 class App extends Component {
   goTo(route) {
@@ -19,41 +21,8 @@ class App extends Component {
 
     return (
       <div>
-        <Navbar fluid>
-          <Navbar.Header>
-            <Button
-              bsStyle="primary"
-              className="btn-margin"
-              onClick={this.goTo.bind(this, 'home')}
-            >
-              Home
-            </Button>
-            {
-              !isAuthenticated() && (
-                <div>
-                  <Button
-                    bsStyle="primary"
-                    className="btn-margin"
-                    onClick={this.login.bind(this)}
-                  >
-                    Log In
-                  </Button>
-                </div>
-                )
-            }
-            {
-              isAuthenticated() && (
-                  <Button
-                    bsStyle="primary"
-                    className="btn-margin"
-                    onClick={this.logout.bind(this)}
-                  >
-                    Log Out
-                  </Button>
-                )
-            }
-          </Navbar.Header>
-        </Navbar>
+      <Menu {...this.props}/>
+      {/* <Footer/> */}
       </div>
     );
   }
